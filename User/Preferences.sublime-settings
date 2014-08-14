@@ -1,9 +1,17 @@
 {
 	"auto_match_enabled": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"highlight_line": true,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"remember_open_files": false,
 	"scroll_speed": 0,
-	"show_encoding": true
+	"show_encoding": true,
+	"tabSize": 4,
+	"translateTabsToSpaces": true,
+	"useTabStops": 4,
+	"word_wrap": false
 }

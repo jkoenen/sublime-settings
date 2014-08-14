@@ -1,4 +1,18 @@
 [
 	{ "keys": ["ctrl+shift+s"], "command": "prompt_save_all" },
-	{ "keys": ["ctrl+shift+w"], "command": "close_all" }
+	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+
+	{ "keys": ["shift+delete"], "command": "clipboard_manager_cut" },
+	{ "keys": ["ctrl+insert"], "command": "clipboard_manager_copy" },
+	{ "keys": ["shift+insert"], "command": "clipboard_manager_paste" },
+
+    { "keys": ["ctrl+x"], "command": "clipboard_manager_cut" },
+    { "keys": ["ctrl+c"], "command": "clipboard_manager_copy" },
+    { "keys": ["ctrl+v"], "command": "clipboard_manager_paste", "args": { "indent": true } },
+	{ "keys": ["ctrl+shift+v"], "command": "clipboard_manager_choose_and_paste" },
+
+	{ "keys": ["alt+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
+	{ "keys": ["ctrl+right"], "command": "move", "args": {"by": "words", "forward": true} }
 ]
