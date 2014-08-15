@@ -14,5 +14,6 @@
 	{ "keys": ["alt+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 
 	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
-	{ "keys": ["ctrl+right"], "command": "move", "args": {"by": "words", "forward": true} }
+	{ "keys": ["ctrl+right"], "command": "move", "args": {"by": "words", "forward": true} },
+	{ "keys": ["ctrl+shift+a"], "command": "keen_use_argument" }
 ]

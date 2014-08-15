@@ -10,8 +10,8 @@
 	"remember_open_files": false,
 	"scroll_speed": 0,
 	"show_encoding": true,
-	"tabSize": 4,
-	"translateTabsToSpaces": true,
-	"useTabStops": 4,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,	
+	"use_tab_stops": 4,
 	"word_wrap": false
 }
